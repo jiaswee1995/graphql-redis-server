@@ -1,0 +1,25 @@
+{
+  "name": "graphql-redis-server",
+  "version": "1.0.0",
+  "description": "GraphQL Redis Apollo Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": "https://github.com/jiaswee1995/graphql-redis-server.git",
+  "author": "jiaswee_95@hotmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^8.2.4"
+  }
+}
