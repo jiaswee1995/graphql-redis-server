@@ -5,6 +5,7 @@ export default `
 
   type Mutation {
     set(key: String!, value:  String!): Boolean!
+    delete(key: String!): Boolean!
   }
 
 `;

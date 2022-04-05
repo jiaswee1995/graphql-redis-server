@@ -19,6 +19,15 @@ export default {
                 console.log(error)
                 return false
             }
+        },
+        delete: async (parent, {key}, {redis}) => {
+            try {
+                await redis.del(key)
+                return true
+            } catch (error) {
+                console.log(error)
+                return false
+            }
         }
     }
 
