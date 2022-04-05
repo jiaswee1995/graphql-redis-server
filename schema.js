@@ -1,7 +1,10 @@
 export default `
-
   type Query {
-    hello: String
+    get(key: String!): String
+  }
+
+  type Mutation {
+    set(key: String!, value:  String!): Boolean!
   }
 
 `;
